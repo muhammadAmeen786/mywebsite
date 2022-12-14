@@ -127,10 +127,8 @@ li{
 
 footer{
     padding: 3rem 0rem;
-    background-color:var(--footer-color) ;
     text-align: center;
     font-size: 23px;
-    color: white;
     width: 100vw;
     
 }
@@ -140,9 +138,7 @@ footer>div{
     font-size: 33px;
     
 }
-footer>h3{
- color: white;
-}
+
 footer>div>a{
     padding: 3px 30px;
 }
