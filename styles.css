@@ -50,7 +50,7 @@ nav>ul>li>a{
     color: var(--primary-color);
     
 }
-button{
+.btn-1{
     background-color: var(--btn-color);
     border-radius: 5px;
     color: white;
@@ -61,12 +61,31 @@ button{
     width: 20px;
     text-align: center;
     transition: all 500ms ease-in-out;
+    overflow: hidden;
 }
-button:hover{
-    width: 80%;
+
+.btn-1:hover{
+
+    width: 70px;
     cursor: pointer;
 
 }
+.btn-2{
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    color: white;
+    border-color: none;
+    border: none;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+.btn-2:hover{
+    cursor: pointer;
+
+}
+
 @media  (max-width:590px) {
     .img-section{
     display: flex;
@@ -77,4 +96,12 @@ button:hover{
     font-size: 20px;
 }
     
+}
+.projects-list{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.projects-list h1,h3{
+    color: var(--primary-color);
 }
