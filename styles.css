@@ -63,7 +63,7 @@ button{
     transition: all 500ms ease-in-out;
 }
 button:hover{
-    width: auto;
+    width: 80%;
     cursor: pointer;
 
 }
