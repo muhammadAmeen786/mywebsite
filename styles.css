@@ -42,12 +42,21 @@ nav{
 }
 nav>ul{
     display: flex;
-    justify-content: right;
+    flex-wrap: wrap;
+    width: 90vw;
+    flex-direction: row-reverse;
+}
+nav>ul>li{
+    display: flex;
+    flex-wrap: nowrap;
 
 }
+
 li{
-    list-style-type: none;
-    
+    list-style-type: none; 
+}
+li:hover{
+    color: var(--btn-color);
 }
 .links{
     text-decoration: none;
@@ -85,6 +94,7 @@ li{
 
 }
 .btn-2{
+    margin: 1rem 0rem;
     background-color: var(--btn-color);
     border-radius: 5px;
     color: white;
@@ -125,6 +135,12 @@ li{
     color: var(--primary-color);
 }
 
+.hrclass{
+    border: 1px solid var(--btn-color);
+    background-color: var(--btn-color);
+    margin:auto 0;
+}
+
 footer{
     padding: 3rem 0rem;
     text-align: center;
@@ -138,6 +154,7 @@ footer>div{
     font-size: 33px;
     
 }
+
 
 footer>div>a{
     padding: 3px 30px;
@@ -159,4 +176,5 @@ footer>div>a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
