@@ -98,6 +98,9 @@ li:hover {
   text-align: center;
   transition: all 500ms ease-in-out;
 }
+.name{
+  color: #30336b;
+}
 .btn-2:hover {
   cursor: pointer;
 }
@@ -108,7 +111,7 @@ li:hover {
     flex-direction: column-reverse;
     justify-content: space-evenly;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     font-size: 20px;
   }
   .home {
